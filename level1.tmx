@@ -24,8 +24,8 @@
  <tileset firstgid="21" name="elementSprites" tilewidth="32" tileheight="32" tilecount="49" columns="7">
   <image source="elementSprites.png" width="224" height="224"/>
  </tileset>
- <tileset firstgid="70" name="player" tilewidth="22" tileheight="30" tilecount="12" columns="1">
-  <image source="player.png" width="22" height="360"/>
+ <tileset firstgid="70" name="player" tilewidth="22" tileheight="30" tilecount="12" columns="12">
+  <image source="player.png" width="264" height="31"/>
  </tileset>
  <layer id="4" name="background" width="40" height="30">
   <data encoding="base64">
@@ -46,6 +46,7 @@
   <object id="6" name="player" x="43.3333" y="741.667">
    <properties>
     <property name="image" value="player"/>
+    <property name="spriteheight" value="31"/>
     <property name="spritewidth" value="22"/>
    </properties>
    <polygon points="0,0 6.66667,1 8.66667,6 8.33333,11.6667 6.33333,18 5,24.6667 -3.33333,25.3333 -6.33333,19.6667 -5,15.6667 -8.66667,11 -9,4.66667 -7,0.666667"/>
