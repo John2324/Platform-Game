@@ -4,6 +4,11 @@ var resources = [{
     src: "background.png"
   },
   {
+    name: "player",
+    type: "image",
+    src: "player.png"
+  },
+  {
     name: "level1",
     type: "tmx",
     src: "level1.tmx"
