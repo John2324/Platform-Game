@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="4">
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="7">
  <tileset firstgid="1" name="background" tilewidth="1280" tileheight="960" tilecount="1" columns="1">
   <image source="background.png" width="1280" height="960"/>
  </tileset>
@@ -43,6 +43,12 @@
   </data>
  </layer>
  <objectgroup id="6" name="player">
-  <object id="3" name="player" x="46.6667" y="748"/>
+  <object id="6" name="player" x="43.3333" y="741.667">
+   <properties>
+    <property name="image" value="player"/>
+    <property name="spritewidth" value="32"/>
+   </properties>
+   <polygon points="0,0 6.66667,1 8.66667,6 8.33333,11.6667 6.33333,18 5,24.6667 -3.33333,25.3333 -6.33333,19.6667 -5,15.6667 -8.66667,11 -9,4.66667 -7,0.666667"/>
+  </object>
  </objectgroup>
 </map>
