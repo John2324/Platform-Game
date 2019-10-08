@@ -8,10 +8,12 @@ var jsApp = {
         me.loader.preload(resources);
         me.state.change(me.state.LOADING);
     },
-    loaded: function() {
-        me.state.set(me.state.PLAY, new PlayScreen());
-        me.state.change(me.state.PLAY);
+    loaded: function() { 
         me.entityPool.add("player", PlayerEntity);
+        me.state.set(me.state.PLAY, new PlayScreen());
+        me.state.set(me.state.MENU, new TitleScreen());
+        me.state.transition("fade", "#808080", 250);
+        me.state.change(me.state.MENU);
     }
 };
 window.onReady(function() {
