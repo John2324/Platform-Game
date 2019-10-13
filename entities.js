@@ -40,7 +40,7 @@ var EnemyEntity = me.ObjectEntity.extend({
     this.endX = x + settings.width - settings.spritewidth;
     this.pos.x = this.endX;
     this.walkLeft = true;
-    this.setVelocity(2);
+    this.setVelocity(1.5);
     this.collidable = true;
   },
   onCollision: function(res, obj) {

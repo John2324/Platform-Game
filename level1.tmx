@@ -79,6 +79,6 @@
   </object>
  </objectgroup>
  <objectgroup id="10" name="EnemyEntities">
-  <object id="16" name="EnemyEntity" x="630" y="763" width="224" height="20"/>
+  <object id="16" name="EnemyEntity" x="609" y="763" width="256" height="20"/>
  </objectgroup>
 </map>
