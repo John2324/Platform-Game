@@ -12,7 +12,7 @@ var jsApp = {
         me.entityPool.add("player", PlayerEntity);
         me.state.set(me.state.PLAY, new PlayScreen());
         me.state.set(me.state.MENU, new TitleScreen());
-        me.state.transition("fade", "#808080", 250);
+        me.state.transition("fade", "#252525", 250);
         me.state.change(me.state.MENU);
     }
 };
