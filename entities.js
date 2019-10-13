@@ -68,3 +68,12 @@ var EnemyEntity = me.ObjectEntity.extend({
     return false;
   }
 });
+var thornEntity = me.ObjectEntity.extend({
+  init: function(x, y, settings) {
+    this.parent(x, y, settings);
+  },
+  onCollision: function (res, obj) {
+    this.collidable = true;
+    obj.gameOver();
+  }
+});

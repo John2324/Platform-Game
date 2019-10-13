@@ -32,4 +32,9 @@ var resources = [{
     name: "badGuy",
     type: "image",
     src: "badGuy.png"
+  },
+  {
+    name: "thorn",
+    type: "image",
+    src: "thorn.png"
   }];
