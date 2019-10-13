@@ -9,11 +9,6 @@ var resources = [{
     src: "player.png"
   },
   {
-    name: "elementSprites",
-    type: "image",
-    src: "elementSprites.png"
-  },
-  {
     name: "tileset",
     type: "image",
     src: "tileset.png"

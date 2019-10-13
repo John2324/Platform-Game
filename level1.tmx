@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="13">
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="14">
  <tileset firstgid="1" name="background" tilewidth="1280" tileheight="960" tilecount="1" columns="1">
   <image source="background.png" width="1280" height="960"/>
  </tileset>
@@ -53,19 +53,25 @@
   </object>
  </objectgroup>
  <objectgroup id="9" name="coin">
-  <object id="10" gid="27" x="261" y="824" width="16" height="16">
+  <object id="10" name="coin" gid="27" x="261" y="824" width="16" height="16">
    <properties>
     <property name="image" value="coin"/>
     <property name="spritewidth" value="16"/>
    </properties>
   </object>
-  <object id="11" gid="27" x="297" y="790" width="16" height="16">
+  <object id="11" name="coin" gid="27" x="297" y="790" width="16" height="16">
    <properties>
     <property name="image" value="coin"/>
     <property name="spritewidth" value="16"/>
    </properties>
   </object>
-  <object id="12" gid="27" x="329" y="758" width="16" height="16">
+  <object id="12" name="coin" gid="27" x="329" y="758" width="16" height="16">
+   <properties>
+    <property name="image" value="coin"/>
+    <property name="spritewidth" value="16"/>
+   </properties>
+  </object>
+  <object id="13" name="coin" gid="27" x="362" y="757" width="16" height="16">
    <properties>
     <property name="image" value="coin"/>
     <property name="spritewidth" value="16"/>
