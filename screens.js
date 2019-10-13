@@ -12,7 +12,7 @@ var TitleScreen = me.ScreenObject.extend({
   },
   onResetEvent: function() {
     if (this.title == null) {
-      this.title = me.loader.getImage("TitleScreen");
+      this.title = me.loader.getImage("titleScreen");
     }
   },
   update: function() {
@@ -22,6 +22,6 @@ var TitleScreen = me.ScreenObject.extend({
     return true;
   },
   draw: function(context){
-    context.drawImage(this.title, 50, 50);
+    context.drawImage(this.title, 100, 100);
   }
 });

@@ -24,7 +24,7 @@ var resources = [{
     src: "level1.tmx"
   },
   {
-    name: "TitleScreen",
+    name: "titleScreen",
     type: "image",
-    src: "TitleScreen.png"
+    src: "titleScreen.png"
   }];
