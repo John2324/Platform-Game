@@ -22,6 +22,6 @@ var TitleScreen = me.ScreenObject.extend({
     return true;
   },
   draw: function(context){
-    context.drawImage(this.title, 480, 200);
+    context.drawImage(this.title, 280, 150);
   }
 });
