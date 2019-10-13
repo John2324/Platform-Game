@@ -53,25 +53,25 @@
   </object>
  </objectgroup>
  <objectgroup id="9" name="coin">
-  <object id="10" name="coin" gid="27" x="261" y="824" width="16" height="16">
+  <object id="10" name="coin" gid="27" x="261" y="797" width="16" height="16">
    <properties>
     <property name="image" value="coin"/>
     <property name="spritewidth" value="16"/>
    </properties>
   </object>
-  <object id="11" name="coin" gid="27" x="297" y="790" width="16" height="16">
+  <object id="11" name="coin" gid="27" x="521" y="759" width="16" height="16">
    <properties>
     <property name="image" value="coin"/>
     <property name="spritewidth" value="16"/>
    </properties>
   </object>
-  <object id="12" name="coin" gid="27" x="329" y="758" width="16" height="16">
+  <object id="12" name="coin" gid="27" x="330" y="730" width="16" height="16">
    <properties>
     <property name="image" value="coin"/>
     <property name="spritewidth" value="16"/>
    </properties>
   </object>
-  <object id="13" name="coin" gid="27" x="362" y="757" width="16" height="16">
+  <object id="13" name="coin" gid="27" x="393" y="728" width="16" height="16">
    <properties>
     <property name="image" value="coin"/>
     <property name="spritewidth" value="16"/>
