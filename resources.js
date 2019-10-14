@@ -37,4 +37,9 @@ var resources = [{
     name: "thorn",
     type: "image",
     src: "thorn.png"
+  },
+  {
+    name: "thorn2",
+    type: "image",
+    src: "thorn2.png"
   }];

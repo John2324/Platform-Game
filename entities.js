@@ -77,3 +77,12 @@ var thornEntity = me.ObjectEntity.extend({
     obj.gameOver();
   }
 });
+var thornEntity2 = me.ObjectEntity.extend({
+  init: function(x, y, settings) {
+    this.parent(x, y, settings);
+    this.collidable = true;
+  },
+  onCollision: function (res, obj) {
+    obj.gameOver();
+  }
+});
