@@ -71,9 +71,9 @@ var EnemyEntity = me.ObjectEntity.extend({
 var thornEntity = me.ObjectEntity.extend({
   init: function(x, y, settings) {
     this.parent(x, y, settings);
+    this.collidable = true;
   },
   onCollision: function (res, obj) {
-    this.collidable = true;
     obj.gameOver();
   }
 });
