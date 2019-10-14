@@ -9,3 +9,5 @@ I created this game using the instructions that are provided in the following bo
 This is my take on the recipe for this game, which is in Chapter 5 of the book.
 
 ![alt text](https://github.com/John2324/Platform-Game/blob/master/titleScreen.png "TitleScreen")
+![alt text](https://github.com/John2324/Platform-Game/blob/master/screenshots/screenshot1.png "InitialScene")
+![alt text](https://github.com/John2324/Platform-Game/blob/master/screenshots/screenshot2.png "SecondScene")
