@@ -299,13 +299,13 @@
     <property name="spritewidth" value="16"/>
    </properties>
   </object>
-  <object id="86" name="coin" gid="27" x="216" y="176" width="16" height="16">
+  <object id="86" name="coin" gid="27" x="216" y="168" width="16" height="16">
    <properties>
     <property name="image" value="coin"/>
     <property name="spritewidth" value="16"/>
    </properties>
   </object>
-  <object id="88" name="coin" gid="27" x="344" y="176" width="16" height="16">
+  <object id="88" name="coin" gid="27" x="344" y="168" width="16" height="16">
    <properties>
     <property name="image" value="coin"/>
     <property name="spritewidth" value="16"/>
@@ -329,19 +329,19 @@
     <property name="spritewidth" value="16"/>
    </properties>
   </object>
-  <object id="94" name="coin" gid="27" x="1048" y="240" width="16" height="16">
+  <object id="94" name="coin" gid="27" x="1048" y="232" width="16" height="16">
    <properties>
     <property name="image" value="coin"/>
     <property name="spritewidth" value="16"/>
    </properties>
   </object>
-  <object id="99" name="coin" gid="27" x="1208" y="184" width="16" height="16">
+  <object id="99" name="coin" gid="27" x="1208" y="176" width="16" height="16">
    <properties>
     <property name="image" value="coin"/>
     <property name="spritewidth" value="16"/>
    </properties>
   </object>
-  <object id="101" name="coin" gid="27" x="1112" y="200" width="16" height="16">
+  <object id="101" name="coin" gid="27" x="1112" y="192" width="16" height="16">
    <properties>
     <property name="image" value="coin"/>
     <property name="spritewidth" value="16"/>
