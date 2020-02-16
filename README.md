@@ -8,6 +8,6 @@ I created this game using the instructions that are provided in the following bo
 
 I built my own version of this book's platform game, using similar objects and variables that are introduced in Chapter 5's recipe.
 
-[Title Screen](https://github.com/John2324/Platform-Game/blob/master/game-files/titleScreen.png "TitleScreen")
-[Preview Screen](https://github.com/John2324/Platform-Game/blob/master/screenshots/screenshot1.png "InitialScene")
-[Preview Screen](https://github.com/John2324/Platform-Game/blob/master/screenshots/screenshot2.png "SecondScene")
+![Title Screen](https://github.com/John2324/Platform-Game/blob/master/game-files/titleScreen.png "TitleScreen")
+![Preview Screen](https://github.com/John2324/Platform-Game/blob/master/screenshots/screenshot1.png "InitialScene")
+![Preview Screen](https://github.com/John2324/Platform-Game/blob/master/screenshots/screenshot2.png "SecondScene")
